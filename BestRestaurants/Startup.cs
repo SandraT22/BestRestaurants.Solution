@@ -43,7 +43,7 @@ namespace ToDoList
 
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Hello World!");
+        await context.Response.WriteAsync("Error! Page could not load... Check connection");
       });
     }
   }
