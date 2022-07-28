@@ -36,13 +36,13 @@
 } 
 * To import the databases go to your MySQL Workbench account. 
 * In the Navigator > Administration window, select Data Import/Restore.
-* In Import Options select Import from Self-Contained File.
+* In Import Options select Import from Self-Contained File from the root directory names sandra_tena.sql.
 * Navigate to the file we just created.
 * Under Default Schema to be Imported To, select the New button.
 
-    Enter the name of your database with _test appended to the end.
-    In this case to_do_list_test.
+    Enter the name best_restaurants
     Click Ok.
+    
 * Navigate to the tab called Import Progress and click Start Import at the bottom right corner of the window.
 * After you are finished with the above steps, reopen the Navigator > Schemas tab. Right click and select Refresh All. Our new test database will appear.
 
