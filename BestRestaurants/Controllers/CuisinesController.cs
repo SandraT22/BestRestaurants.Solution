@@ -11,7 +11,7 @@ namespace BestRestaurants.Controllers
   {
         private readonly BestRestaurantsContext _db;
 
-    public CuisinesController(BestRestaurants db)
+    public CuisinesController(BestRestaurantsContext db)
     {
       _db = db;
     }
@@ -67,7 +67,7 @@ namespace BestRestaurants.Controllers
     public ActionResult Details(int id)
     {
       Cuisine thisCuisine= _db.Cuisines.FirstOrDefault(cuisine => cuisine.CuisineId == id);
-      return View(thisuisine);
+      return View(thisCuisine);
     }
   }
 }
